@@ -1,0 +1,197 @@
+body {
+  background-image: url(survey.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+nav{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 7px;
+}
+
+nav a {
+  text-decoration: none;
+  display: block;
+  padding: 15px 25px;
+  text-align: center;
+  background-color: rgb(127, 170, 246);
+  color: #464141;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+ul{
+  margin: 0px;
+  margin-right: 100px;
+}
+
+ul li{
+  float: left;
+  padding: 0px 10px;
+  list-style: none;
+}
+
+ul li a:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+
+img {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.survey {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+#survey-form {
+  text-align: center;
+  color: black;
+  background-color: lightyellow;
+  font-family: sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+}
+
+.survey-banner {
+  text-align: center;
+  font-family: sans-serif;
+  padding: 50px 0 20px 0;
+}
+
+.survey-banner h2, p {
+  margin: 0;
+}
+
+.details {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  justify-content: space-between;
+}
+
+.details1 {
+  width: 48%;
+  text-align: left;
+}
+
+.details2 {
+  width: 48%;
+  text-align: left;
+}
+
+.details  p {
+  font-weight: 900;
+  width: 100%;
+}
+
+.details2  input {
+  float: right;
+  width: 110px;
+}
+.details1  input {
+  float: right;
+}
+
+.qandv {
+  display: flex;
+  flex-wrap: wrap;
+
+  max-width: 100%;
+  justify-content: space-between;
+}
+
+.qandv  p {
+  font-weight: 900;
+  width: 100%;
+  padding: 15px;
+}
+
+.qandv-1 {
+  width: 48%;
+  text-align: left;
+}
+
+.qandv-2 {
+  width: 48%;
+  text-align: left;
+}
+
+.qandv-1  select {
+  float: right;
+  width: 110px;
+}
+.qandv-2  select {
+  float: right;
+}
+.hear {
+  display: flex;
+  flex-wrap: wrap;
+
+  text-align: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.hear p {
+  font-weight: 900;
+  width: 100%;
+  padding: 15px;
+}
+
+.hear-1 {
+  display: flex;
+
+  width: 45%;
+  justify-content: space-between;
+}
+
+.hear-2 {
+  display: flex;
+
+  width: 45%;
+  justify-content: space-between;
+}
+
+.hear-3 {
+  width: 100%;
+}
+
+.wrapper {
+  border: 3px dotted red;
+  min-width: 620px;
+}
+
+.submit {
+  padding:0.35em 1.2em;
+  border:0.1em solid #FFFFFF;
+  margin:0 0.3em 0.3em 0;
+  border-radius:0.12em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family: cursive;
+  font-weight:300;
+  background-color: limegreen;
+  color: black;
+  text-align:center;
+  transition: all 0.2s;
+}
+
+.submit:hover {
+  color: black;
+  background-color: whitesmoke;
+}
+
+

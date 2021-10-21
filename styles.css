@@ -1,0 +1,115 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	background-image: url('https://swall.teahub.io/photos/small/51-511812_pastel-tan-color-painted-wooden-texture-wallpaper-background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+main {
+	width: 100%;
+}
+
+nav{
+	display: flex;
+  flex-wrap: wrap;
+  margin-top: 7px;
+}
+
+nav a {
+	text-decoration: none;
+  display: block;
+  padding: 15px 25px;
+  text-align: center;
+  background-color: rgb(127, 170, 246);
+  color: #464141;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+ul{
+	margin: 0px;
+	margin-right: 100px;
+}
+
+ul li{
+	float: left;
+	padding: 0px 10px;
+	list-style: none;
+}
+
+ul li a:hover {
+	background-color: whitesmoke;
+  color: black;
+}
+
+content {
+	position: absolute;
+	top:  50%;
+	left:  50%;
+	transform: translate(-50%, 50%);
+	color: white;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+}
+
+button {
+	margin-left: 47%;
+	background: none;
+	color: white;
+	font-size: 18px;
+	padding: 8px 25px;
+	border-radius: 6px;
+}
+button:hover {
+	background: gold;
+	color: white;
+}
+
+
+
+img {
+	margin-bottom: 50px;
+	margin-left: 750px;
+	padding-top: 20px;
+
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+ 
+}
+
+p.copyright {
+    color: greenyellow;
+    line-height: 40px;
+    font-size: 0.7em;
+    font-family: sans-serif;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+

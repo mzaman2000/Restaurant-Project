@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Survey</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="survey.css">
+
+</head>
+<body>
+
+  <nav>
+            
+          <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Menu.html">Menu</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="Survey.html">Survey</a></li>
+          </ul>
+
+        </nav>
+
+  <div class="survey">
+
+    <div class="survey-banner">
+      <h2 style="font-family: monospace; color: aliceblue;">Restaurant Survey</h2>
+      <p id="description" style="font-family: cursive; color: aqua;">Please help us better serve you by filling out this quick survey card. Your assistance is appreciated.</p>
+    </div>
+
+    <form id="survey-form" action="http://www.WebsiteDevelopmentBook.com/FormEcho.php" method="post">
+     
+      <div class="details">
+        <div class="details1">
+          <label for="name" id="name-label">Name:</label>
+          <input type="text" name="name" id="name" required placeholder="Mohammed Zaman">
+          <br>
+          <br>
+          <label for="email" id="email-label">Email:</label>
+          <input type="email" id="email" name="email" required placeholder="mail@collectivecuisine.com">
+        </div>
+
+        <div class="details2">
+          <label for="number" id="number-label">Number of Guests:</label>
+          <input type="number" id="number" name="number">
+          <br>
+          <br>
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="date">
+        </div>
+      </div>
+      <div class="qandv">
+
+        <p>Quality and Value</p>
+
+        <div class="qandv-1">
+
+          <label for="quality" required>Quality of food.</label>
+          <select id="dropdown" name="quality">
+            <option value="Excellent-quality">Excellent</option>
+            <option value="Good-quality">Good</option>
+            <option value="Fair-quality">Fair</option>
+            <option value="Poor-quality">Poor</option>
+          </select>
+          <br>
+          <br>
+          <label for="portion">Portion size.</label>
+          <select id="portion" name="portion">
+            <option value="Excellent-portion">Excellent</option>
+            <option value="Good-portion">Good</option>
+            <option value="Fair-portion">Fair</option>
+            <option value="Poor-portion">Poor</option>
+          </select>
+        </div>
+
+        <div class="qandv-2">
+          <label for="Service">Service.</label>
+          <select id="Service" name="Service">
+            <option value="Excellent-Service">Excellent</option>
+            <option value="Good-Service">Good</option>
+            <option value="Fair-Service">Fair</option>
+            <option value="Poor-Service">Poor</option>
+          </select>
+          <br>
+          <br>
+          <label for="value">Overall value.</label>
+          <select id="value" name="value">
+            <option value="Excellent-value">Excellent</option>
+            <option value="Good-value">Good</option>
+            <option value="Fair-value">Fair</option>
+            <option value="Poor-value">Poor</option>
+          </select>
+        </div>
+
+      </div>
+
+      <div class="hear">
+        <p>How did you hear about us.</p>
+        <div class="hear-1">
+          <label for="tv"> T.V</label>
+          <input type="checkbox" id="tv" name="tv" value="tv-1">
+
+          <label for="newspaper"> Newspaper</label>
+          <input type="checkbox" id="newspaper" name="newspaper" value="newspaper-1">
+
+        </div>
+        <div class="hear-2"><label for="radio"> Radio</label>
+          <input type="checkbox" id="radio" name="radio" value="radio-1">
+
+          <label for="friend"> Friend</label>
+          <input type="checkbox" id="friend" name="friend" value="friend-1">
+
+        </div>
+        <div class="hear-3"><label for="other"> Other</label>
+          <input type="checkbox" id="other" name="other" value="other-1">
+
+        </div>
+      </div>
+
+      <label for="review">Please leave a review of your experiance:</label>
+      <br>
+      <textarea id="review" name="review" rows="6" cols="60">
+At "Collective Cuisine" we value our customer feedback. 
+</textarea>
+
+      <p>
+        Would you recomend our restaurant to others :-
+        <input type="radio" id="yes" name="recomend" value="yes">
+        <label for="yes">Yes</label>
+
+        <input type="radio" id="no" name="recomend" value="no">
+        <label for="no">No</label>
+      </p>
+      <br>
+      <br>
+      <button class="submit">Submit</button>
+    </form>
+  </div>
+</div>
+
+</body>
+</html>
+
